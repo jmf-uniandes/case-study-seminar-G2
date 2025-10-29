@@ -51,10 +51,10 @@ Los comentarios no se muestran en el renderizado final y se crean utilizando la 
 <!-- Este es un comentario en Markdown -->
 
 ### 11. Referencias de Enlaces
-
 Se pueden definir enlaces con referencias para mayor claridad.
 [Google]: https://www.google.com "Ir a Google"
 [Ejemplo de enlace a Google][Google]
+
 ### 12. Imágenes
 Se insertan utilizando una sintaxis similar a la de los enlaces, pero precedida por un signo de exclamación (`!`).
 ![Texto Alternativo](ruta/a/la/imagen.jpg "Título de la Imagen")

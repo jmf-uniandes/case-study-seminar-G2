@@ -1,4 +1,13 @@
-# Guía de Configuración y Flujo de Trabajo – Análisis Musical con Python
+# 📘Guía de Configuración y Flujo de Trabajo – Análisis Musical con Python
+**Proyecto:** Análisis de Atributos Musicales y Predicción de Popularidad de Canciones  
+
+![Arquitectura](img/arquitectura.png "1. Arquitectura")
+
+![Entregable](img/entregable-final.png "2. Entregable final")
+
+![Plan](img/plan-proyecto-inicial.png "3. Plan del Proyecto")
+
+
 
 ## 1. Importar las librerías
 
