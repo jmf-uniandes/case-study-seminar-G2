@@ -69,14 +69,15 @@ from IPython.display import display, HTML
 Para aislar las dependencias del proyecto y mantener versiones estables.
 
 ```bash
-# Paso 1: Crear entorno virtual
-python -m venv .venv
+# Paso 1: Crear entorno virtual, v3.13 es la maxima compatible con streamlit
+py -3.13 -m venv .venv 
 
 # Paso 2: Activar entorno virtual
 .venv\Scripts\activate
 
 # Paso 3: Instalar librerías necesarias
-pip install pandas numpy matplotlib seaborn scikit-learn jupyter missingno plotly
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter missingno plotly streamlit lightgbm xgboost
+
 
 # Paso 4: Exportar dependencias instaladas
 pip freeze > requirements.txt
