@@ -75,6 +75,12 @@ py -3.13 -m venv .venv
 # Paso 2: Activar entorno virtual
 .venv\Scripts\activate
 
+#Paso 2a seleccionar interprete de python para el entorno virtual
+a) Presionar Ctrl + shift + P
+b) Click en Pyhton: Select Interpreter
+c) Seleccionar el que tenga el entorno virtual, ej.  Pyhton 3.13.19(.venv) .\.venv\Scripts\python.exe
+
+
 # Paso 3: Instalar librerías necesarias
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter missingno plotly streamlit lightgbm xgboost
 
